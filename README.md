@@ -6,25 +6,6 @@ A simplified simulation of the TLS (Transport Layer Security) handshake process,
 
 - Python 3.x
 
-## Setup
-
-1. Clone or download the project:
-   ```
-   git clone https://github.com/masneltef/Homework2-tls-handshake.git
-   cd tls-handshake-simulation/Homework2_TLS_Handshake
-   ```
-
-2. (Optional) Create and activate a virtual environment:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install dependencies (if any):
-   ```
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 Run the simulation:
