@@ -1,5 +1,3 @@
-# main.py
-
 import random
 
 # Global variables to store user inputs
@@ -128,7 +126,7 @@ def diffie_hellman_exchange():
     client_shared_secret = pow(server_public, client_private, prime)
     server_shared_secret = pow(client_public, server_private, prime)
     
-    # In a correct implementation, these should be equal
+    # These should be equal
     if client_shared_secret == server_shared_secret:
         return client_shared_secret
     else:
